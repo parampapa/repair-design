@@ -369,10 +369,10 @@ template {
 }
 
 .button--primary {
-  background-color: #E38873;
+  background-color: #E3B873;
   color: #fff;
-  -webkit-box-shadow: 0px 5px 15px rgba(227, 136, 115, 0.2);
-          box-shadow: 0px 5px 15px rgba(227, 136, 115, 0.2);
+  -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+          box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
   -webkit-transition: -webkit-box-shadow 0.3s;
   transition: -webkit-box-shadow 0.3s;
   transition: box-shadow 0.3s;
@@ -419,7 +419,7 @@ template {
 }
 
 .logo {
-  color: #E38873;
+  color: #E3B873;
   text-transform: uppercase;
 }
 
@@ -433,11 +433,11 @@ template {
 }
 
 .nav__item:hover {
-  color: #E38873;
+  color: #E3B873;
 }
 
 .phone {
-  color: #E38873;
+  color: #E3B873;
 }
 
 .contacts__phone {
@@ -518,7 +518,7 @@ template {
   background: url("../img/arrow-dawn.svg") no-repeat center;
   width: 30px;
   height: 30px;
-  border: 2px solid #E38873;
+  border: 2px solid #E3B873;
   border-radius: 50%;
   margin-left: 22px;
 }
@@ -545,7 +545,7 @@ template {
           align-items: center;
   text-transform: uppercase;
   text-decoration: none;
-  color: #E38873;
+  color: #E3B873;
   line-height: 0.8;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
@@ -556,7 +556,7 @@ template {
   content: "";
   width: 50px;
   height: 1px;
-  background-color: #E38873;
+  background-color: #E3B873;
   margin-left: 8px;
 }
 
@@ -568,10 +568,10 @@ template {
 }
 
 .title--primary {
-  color: #E38873;
+  color: #E3B873;
 }
 
-*:before, *:after {
+*, *:before, *:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
