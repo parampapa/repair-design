@@ -18,7 +18,7 @@ const autoprefixer = require('gulp-autoprefixer');
 
 // Compile sass into CSS & auto-inject into browsers
 function serveSass() {
-  return src("./scss/*.sass")
+  return src("./sass/**/*.sass")
       .pipe(sass())
       .pipe(dest("./css"))
       .pipe(autoprefixer({
