@@ -811,6 +811,8 @@ img {
 }
 
 .modal {
+  opacity: 0;
+  visibility: hidden;
   position: fixed;
   z-index: 199;
   left: 0;
@@ -828,6 +830,11 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.modal--visible {
+  opacity: 1;
+  visibility: visible;
 }
 
 .modal__dialog {
@@ -922,11 +929,18 @@ img {
         -ms-flex-align: center;
             align-items: center;
   }
-  .types__card {
-    margin-bottom: 5rem;
-  }
   .card__text {
     margin-left: 0;
+  }
+  .projects {
+    background-color: #131313;
+    color: #fff;
+  }
+  .projects__content {
+    color: #fff;
+  }
+  .projects__card {
+    margin-bottom: 5rem;
   }
 }
 
