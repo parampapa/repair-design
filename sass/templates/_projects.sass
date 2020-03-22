@@ -1,47 +1,58 @@
-.projects
-  &__section-title
-    margin: 2rem
-  &__content
-    font-family: "Futura Book", cursive 
-    text-transform: none
-    font-size: 1.42rem
-    line-height: 1.79rem
-    padding-bottom: 1.5rem
-    color: #363636
-.row
-  display: flex
-  align-items: flex-start
-  justify-content: space-between
-.col
-  flex-basis: 32%
-.card 
-  &__text
-    position: relative
-    max-width: 23.6rem
-    margin: 0 auto
-    margin-top: -9.3rem
-    padding: 1.79rem 2.14rem
-    background-color: #fff
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03)
-  &__title
-    font-family: "Yeseva One", cursive
-    font-size: 1.29rem
-    margin-top: 0
-    margin-bottom: 0.7rem
-  &__list
-    padding: 0 0 0 1rem
+.swiper
+  &-slide
+    display: flex
+    flex-wrap: wrap
     margin: 0
-    font-size: 1.07rem
-    line-height: 1.79rem
-    color: $secondary
-    margin-bottom: 2.5rem
-  &__pricetag
-    position: absolute
-    left: 0
-    bottom: -1.79rem
-    font-size: 1.29rem
-    font-family: "Yeseva One", cursive
-    text-transform: uppercase
-    background-color: $primary
-    color: $light
-    padding: 1.214rem 2.6rem
+    &__text
+      flex-basis: 50%
+      margin-bottom: 2.42rem
+      padding-bottom: 2rem 
+    &__volue
+      font-size: 1.07rem
+      line-height: 1.428rem
+    &__heading
+      font-size: 1.285rem   
+      line-height: 1.78rem
+      font-family: 'Yeseva One', cursive
+      color: $primary
+      text-transform: uppercase
+      margin-bottom: 0.64rem
+    &__image
+      height: 100%  
+       
+    
+  &-pagination
+    &-bullet
+      background-color: rgba($light, 0.3) 
+      &-active
+        background-color: $light
+  &-button
+    &-prev, &-next
+      bottom: 0
+      top: auto 
+      background-size: 42px
+      width: 42px
+      &::after
+        display: none
+      height: 14px
+    &-prev
+      left: 0
+      background: url("../img/arrow-prev.svg") no-repeat center 
+    &-next 
+      background: url("../img/arrow-next.svg") no-repeat center
+.swiper-container-horizontal>.swiper-pagination-bullets
+  width: auto
+  bottom: -2px 
+
+.projects
+  padding-top: 12.545rem      
+
+     
+
+
+            
+  
+      
+        
+
+      
