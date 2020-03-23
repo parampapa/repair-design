@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Repair Design Project</title>
 </head>
@@ -13,16 +14,16 @@
 <header class="header">
   <div class="container">
     <div class="menu">
-      <div class="logo menu__logo">
+      <div class="logo menu__logo wow fadeInRight">
         Repair Design Project
       </div>
       <nav class="nav menu__nav">
-        <a href="#" class="nav__item">Главная</a>
-        <a href="#" class="nav__item">Проекты</a>
-        <a href="#" class="nav__item">Замер</a>
-        <a href="#" class="nav__item">Команда</a>
-        <a href="#" class="nav__item">Отзывы</a>
-        <a href="#" class="nav__item">Контакты</a>
+        <a href="#" class="nav__item wow fadeInRight" data-wow-delay="0.2s">Главная</a>
+        <a href="#" class="nav__item wow fadeInRight" data-wow-delay="0.4s">Проекты</a>
+        <a href="#" class="nav__item wow fadeInRight" data-wow-delay="0.6s">Замер</a>
+        <a href="#" class="nav__item wow fadeInRight" data-wow-delay="0.8s">Команда</a>
+        <a href="#" class="nav__item wow fadeInRight" data-wow-delay="1s">Отзывы</a>
+        <a href="#" class="nav__item wow fadeInRight" data-wow-delay="1.2s">Контакты</a>
       </nav>
       <div class="contacts menu__contacts">
         <a href="tel:+79997683299" class="phone contacts__phone">
@@ -41,22 +42,22 @@
   </div>
   <div class="container">
      <div class="hero__content">
-      <h1 class="title hero__title">Турецкий ремонт 
+      <h1 class="title hero__title wow fadeInRight" data-wow-delay="0.1s">Турецкий ремонт 
         в&nbsp<span class="title--primary">Ростове-на-дону</span></h1>
-        <p class="hero__text">Получите готовый ремонт под ключ в срок с экономией рабочего времени до 45 дней и 20% от стоимости материалов за счет организации работы</p>
-        <button class="button hero__button button--primary" data-toggle="modal">Рассчитать стоимость</button>
-        <button class="button hero__button button--outline">Отправить заявку</button>
+        <p class="hero__text wow fadeInRight" data-wow-delay="0.3s">Получите готовый ремонт под ключ в срок с экономией рабочего времени до 45 дней и 20% от стоимости материалов за счет организации работы</p>
+        <button class="button hero__button button--primary wow fadeInRight" data-toggle="modal" data-wow-delay="0.5s">Рассчитать стоимость</button>
+        <button class="button hero__button button--outline wow fadeInRight" data-wow-delay="0.5s">Отправить заявку</button>
     </div>
   </div> 
     <!-- /.container -->
-   <a href="#" class="hero__scroll-down">листайте вниз</a>
+   <a href="#" class="hero__scroll-down wow pulse"data-wow-iteration="2" data-wow-delay="4s">листайте вниз</a>
   </section>
   <!-- /.hero -->
   <section class="section section--dark projects">
     <div class="container">
       <div class="row">
         <div class="col-50 swiper__mobile">
-          <div class="section-title section-title--left">
+          <div class="section-title section-title--left wow fadeInRight" data-wow-delay="0.1s">
             <h2 class="section-title__heading section-title__heading--primary">Завершенные <span class="section-title__word">проекты</span></h2>
             <!-- /.section-title__heading -->
             <p class="section-title__text">На сайте представлена ​​лишь небольшая часть работ, 
@@ -67,7 +68,7 @@
             <!-- Slider main container -->
             <div class="swiper-container">
               <!-- Additional required wrapper -->
-              <div class="swiper-wrapper swiper-no-swiping">
+              <div class="swiper-wrapper swiper-no-swiping wow fadeInRight">
                   <!-- Slides -->
                   <div class="swiper-slide">
                     <div class="swiper-slide__text">
@@ -140,7 +141,7 @@
           <!-- Slider main container -->
           <div class="swiper-container">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper swiper-no-swiping ">
+            <div class="swiper-wrapper swiper-no-swiping wow fadeInRight">
                 <!-- Slides -->
                 <div class="swiper-slide">
                   <img class="swiper-slide__image"  src="img/projects/project.jpg" alt="">
@@ -469,7 +470,8 @@
 <!-- /.modal -->
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>  
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script src="js/wow.min.js"></script>  
 <script src="js/main.js"></script>
   
     
