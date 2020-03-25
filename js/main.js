@@ -42,7 +42,10 @@ $(document).ready(function () {
         minlength: 2,
         maxlenght: 15
       },
-      userPhone: "required",
+      userPhone: {
+        required: true,
+        minlength: 17
+      },
       // Правило-объект (блок)
       userEmail: {
         required: true,
@@ -54,7 +57,9 @@ $(document).ready(function () {
       minlength: "Имя должно содержать от 2 до 15 символов",
       maxlenght: "Имя должно содержать от 2 до 15 символов"
     },
-      userPhone: "Заполните поле",
+      userPhone: {required:"Заполните поле",
+      minlength: "Введите корректный номер телефона"
+    },
       userEmail: {
         required: "Заполните поле",
         email: "Введите корректный email"
@@ -120,7 +125,7 @@ $(document).ready(function () {
   });
   //маска для телефона
 
-  $('[type=tel]').mask('+7(000) 000-00-00', {placeholder: "+7(000) 000-00-00"});
+  $('[type=tel]').mask("+7(000) 000-00-00", {placeholder: "+7(000) 000-00-00"});
 
 
 });
